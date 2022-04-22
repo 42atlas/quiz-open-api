@@ -4,6 +4,5 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: initial;
-
   backdrop-filter: invert(85%);
 }
