@@ -1,8 +1,8 @@
 import "./Question.css";
 
-import {Button} from "@mui/material";
-import {useState} from "react";
-import {useNavigate} from "react-router";
+import { Button } from "@mui/material";
+import { useState } from "react";
+import { useNavigate } from "react-router";
 
 import ErrorMessage from "../ErrorMessage/ErrorMessage";
 
