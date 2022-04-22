@@ -1,0 +1,12 @@
+.title {
+  text-transform: uppercase;
+  font-size: 100px;
+
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
