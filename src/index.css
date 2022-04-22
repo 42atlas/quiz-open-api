@@ -1,3 +1,7 @@
 body {
   margin: 0;
+  background-image: url(./question-mark-1872665_1920.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  backdrop-filter: invert(85%);
 }
