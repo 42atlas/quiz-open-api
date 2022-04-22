@@ -37,7 +37,7 @@ const Question = ({
     } else if (selected) {
       setCurrQues(currQues + 1);
       setSelected();
-    } else setError("Please select an option first");
+    } else setError("You must select an option");
   };
 
   const handleQuit = () => {
@@ -70,7 +70,7 @@ const Question = ({
             variant="contained"
             color="warning"
             size="large"
-            style={{ width: 185 }}
+            style={{ width: 200 }}
             href="/"
             onClick={() => handleQuit()}
           >
@@ -80,10 +80,10 @@ const Question = ({
             variant="contained"
             color="info"
             size="large"
-            style={{ width: 185 }}
+            style={{ width: 200 }}
             onClick={handleNext}
           >
-            {currQues > 9 ? "Submit" : "Next Question"}
+            {currQues > 8 ? "Submit" : "Next"}
           </Button>
         </div>
       </div>

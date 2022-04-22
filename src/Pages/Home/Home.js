@@ -73,7 +73,7 @@ const Home = ({ name, setName, fetchQuestions }) => {
             size="large"
             onClick={handleSubmit}
           >
-            Start Quiz
+            Start
           </Button>
         </div>
       </div>

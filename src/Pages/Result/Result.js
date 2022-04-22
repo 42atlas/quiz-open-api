@@ -22,7 +22,7 @@ const Result = ({ name, score }) => {
         style={{ alignSelf: "center", marginTop: 20 }}
         href="/"
       >
-        Go to homepage
+        Start again
       </Button>
     </div>
   );
