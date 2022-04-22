@@ -1,8 +1,9 @@
 .title {
   text-transform: uppercase;
   font-size: 100px;
-
+  text-decoration: none;
   cursor: pointer;
+  color: rgb(56, 56, 165);
 }
 
 .header {
